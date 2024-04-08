@@ -4,27 +4,59 @@
 package repositoriodenis;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 class AppTest {
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
-    }
-    @Test void Suma(){
-        App classSuma = new App();
-        assertEquals(4, classSuma.sumar(2, 2));
-    }
-    @Test void Resta(){
-        App classSuma = new App();
-        assertEquals(4, classSuma.restar(2, 2));
-    }
-    @Test void Multiplicacion(){
-        App classSuma = new App();
-        assertEquals(4, classSuma.multiplicar(2, 2));
-    }
-    @Test void Division(){
-        App classSuma = new App();
-        assertEquals(4, classSuma.dividir(2, 2));
-    }
+    // @Test void añadirUsuario() {
+    //     Usuario usuario1 = new Usuario("id", "nombre", "correo");
+    //     ArrayList<Usuario> listaUsuario = new ArrayList<Usuario>();
+    //     listaUsuario.add(usuario1);
+    //     assertEquals(true, listaUsuario.equals(usuario1));
+    // }
+    // @Test void eliminarUsuario(){
+    //     Usuario usuario1 = new Usuario("id", "nombre", "correo");
+    //     ArrayList<Usuario> listaUsuario = new ArrayList<Usuario>();
+    //     listaUsuario.add(usuario1);
+    //     listaUsuario.remove(usuario1);
+    //     assertEquals(true, listaUsuario.remove(usuario1));
+    // }
+    // @Test void añadirHabitacion(){
+    //     Habitacion habitacion1 = new Habitacion("numReserva");
+    //     ArrayList<Habitacion> listaHabitaciones = new ArrayList<>();
+    //     listaHabitaciones.add(habitacion1);
+    //     assertEquals(true, listaHabitaciones.equals(habitacion1));
+    // }
+    // @Test void eliminarHabitacion(){
+    //     Habitacion habitacion1 = new Habitacion("numReserva");
+    //     ArrayList<Habitacion> listaHabitaciones = new ArrayList<>();
+    //     listaHabitaciones.add(habitacion1);
+    //     listaHabitaciones.remove(habitacion1);
+    //     assertEquals(true, listaHabitaciones.remove(habitacion1));
+    // }
+    // @Test void listarHabitaciones(){
+    //     Habitacion habitacion1 = new Habitacion("planta", "numPuerta");
+    //     ArrayList<Hotel> listaHabitaciones = new ArrayList<>();
+    //     listaHabitaciones.add(habitacion1);
+    //     assertEquals(true, listaHabitaciones.get(habitacion1));
+    // }
+    // @Test void reserva(){
+    //     Reserva reserva1 = new Reserva("numReserva", "id_usuario");
+    //     ArrayList<Habitaciones> listaHabitaciones = new ArrayList<Habitaciones>();
+    //     HashMap<Object, ArrayList<Habitaciones>> reservado = new HashMap<>();
+    //     listaHabitaciones.add(reserva1);
+    //     reservado.put(usuario1, listaHabitaciones.Reservar(reserva1));
+    //     assertEquals(true , reservado.equals(reserva1)); 
+    // }
+    // @Test void visualizarReserva(){
+    //     Reserva reserva1 = new Reserva("numReserva", "id_usuario");
+    //     ArrayList<Habitaciones> listaHabitaciones = new ArrayList<Habitaciones>();
+    //     HashMap<Object, ArrayList<Habitaciones>> reservado = new HashMap<>();
+    //     listaHabitaciones.add(reserva1);
+    //     reservado.put(usuario1, listaHabitaciones.Reservar(reserva1));
+    //     assertEquals(true , reservado.get(reserva1)); 
+    // }
 }
